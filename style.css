@@ -1,0 +1,80 @@
+/*Keep Images and Video Responsive ===============*/
+img,
+video {
+	max-width: 100%;
+	height: auto;
+}
+/*Background Page Color ===============*/
+body {
+	background-color: #faf3e4;
+}
+
+/*Header Styles ==================*/
+header {
+	background-color: #1f1f1f;
+	color: #ffedd3;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* Hyper Link Text Color ==================*/
+a {
+	color: rgb(250, 232, 206);
+}
+a:hover {
+	color: #ff9e9e;
+}
+a:visited {
+	color: rgb(82, 80, 80);
+}
+/* Text Styles ============*/
+html {
+	font-size: 94%;
+}
+h1 {
+	font-size: 3rem; font-weight: 500;
+}
+h2 {
+	font-size: 2rem;
+}
+
+/*Header and Body Garamond Font ===============*/
+h1 {
+	font-family:
+		Garamond,
+		Baskerville,
+		Baskerville Old Face,
+		Hoefler Text,
+		Times New Roman,
+		serif;
+}
+body {
+	font-family:
+		Garamond,
+		Baskerville,
+		Baskerville Old Face,
+		Hoefler Text,
+		Times New Roman,
+		serif;
+}
+/*Horizontal Navigation Adjustment ===============*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 47px;
+}
+
+  
+h1{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
