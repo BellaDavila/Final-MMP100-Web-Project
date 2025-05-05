@@ -7,33 +7,37 @@ video {
 /*Background Page Color ===============*/
 body {
 	background-color: #faf3e4;
-	text-align: center
+	text-align: center;
 }
 
 /*Header Styles ==================*/
 header {
 	background-color: #1f1f1f;
 	color: #ffedd3;
-	display:flex;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-left: 47px
+		
 }
+
 /* Hyper Link Text Color ==================*/
 a {
-	color: rgb(250, 232, 206);
+	color: rgb(245, 226, 198);
 }
 a:hover {
 	color: #ff9e9e;
 }
 a:visited {
-	color: rgb(82, 80, 80);
+	color: #ffedd3;
 }
 /* Text Styles ============*/
 html {
 	font-size: 94%;
 }
 h1 {
-	font-size: 3rem; font-weight: 500;
+	font-size: 3rem;
+	font-weight: 500;
 }
 h2 {
 	font-size: 2rem;
@@ -61,21 +65,24 @@ body {
 /*Horizontal Navigation Adjustment ===============*/
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 2;
+	list-style: none;
+	padding: 0;
+	margin: 24;
 }
 
-nav li{
-  display: inline-block;
-  margin-right: 47px;
+nav li {
+	display: inline-block;
+	margin-right: 47px;
 }
 
-  
-h1{
-  text-align: center;
+h1 {
+	text-align: center;
 }
 
-footer{
-  text-align: center;
+footer {
+	background-color: #1f1f1f;
+	color: #ffedd3;
+	text-align-last: center;
+	margin-top: 23px;
+	padding: 4px
 }
